@@ -3,11 +3,70 @@
   <head>
     <meta charset="utf-8">
     <title>On the Go</title>
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    asdfasdf
+    <nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo center">On The Go</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#">Unused</a></li>
+      <li><a href="#">Unused</a></li>
+    </ul>
+  </div>
+</nav><br>
+<div class="container">
+<h3 class="center">Welcome to 'On The Go' the shop by a picture app</h3><br>
+<div class="row">
+  <div class="col s6">
+    <h4 class="center">Add Picture Here</h4><br>
+    <form action="#">
+  <div class="file-field input-field">
+    <div class="btn">
+      <span>File</span>
+      <input type="file">
+    </div>
+    <div class="file-path-wrapper">
+      <input class="file-path validate" type="text">
+    </div>
+  </div>
+</form>
+  </div>
+  <div class="col s6">
+    <h4 class="center">Purchase Here</h4>
+    <div id="addContentHere">
+    </div>
+  </div>
+</div>
+</div>
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">On The Go</h5>
+        <p class="grey-text text-lighten-4">The shop by picture app</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Unused 1</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Unused 2</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2014 Copyright Text
+    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
 
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js"></script>
     <script>
       var app = new Clarifai.App(
